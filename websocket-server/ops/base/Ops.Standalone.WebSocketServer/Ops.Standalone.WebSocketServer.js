@@ -8,7 +8,7 @@ const
     inTargetClientID = op.inString("Target Client ID"),
     inSendToClientID = op.inTrigger("Send Message To Client ID"),
 
-    outRunning = op.outBoolNum("Running", 0),
+    outRunning = op.outBool("Running", false),
     outServerStarted = op.outTrigger("Server Started"),
     outServerStopped = op.outTrigger("Server Stopped"),
     outClientConnected = op.outTrigger("Client Connected"),
@@ -18,7 +18,7 @@ const
     outReceivedData = op.outTrigger("Received Data"),
     outRawData = op.outString("Raw Data"),
     outClientID = op.outString("Client ID"),
-    outValidJSON = op.outBoolNum("Valid JSON")
+    outValidJSON = op.outBool("Valid JSON", false)
 
 op.setPortGroup('Connection', [inPort, inStartServer, outConnectedClients, outClientsArray]);
 op.setPortGroup('Messaging', [inMessage, inBroadcastMessage, inTargetClientID, inSendToClientID, outReceivedData, outRawData, outClientID, outValidJSON]);
