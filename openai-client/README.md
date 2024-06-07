@@ -4,7 +4,7 @@ This op uses the `openai` package from NodeJS to implement an OpenAI API client.
 
 ### Inputs
 
-* Base URL - `string` - The base URL of the OpenAI API. Leave "Default" to use the default base URL. This can be set to any OpenAI API compatible API URL
+* Base URL - `string` - The base URL of the OpenAI API. Leave "Default" to use OpenAI's API. This can be set to any OpenAI API compatible API URL (ex: LM Studio, ollama)
 * API Key - `string` - The OpenAI API key
 * Model Name - `string` - The name of the OpenAI model to use
 * Temperature - `number` - The temperature of the response. Defaults to 0.7
