@@ -18,6 +18,8 @@ This op uses the [`ws`](https://www.npmjs.com/package/ws) package to implement a
 
 This op uses the [`openai`](https://www.npmjs.com/package/openai) package to implement an OpenAI API client. It supports streaming responses and JSON mode.
 
+The baseURL field is supported, so you can use any OpenAI API compatible API URL (ex: [LM Studio](https://lmstudio.ai/), [ollama](https://ollama.com/)).
+
 ### Groq Client
 
 * [Documentation](https://github.com/Zetaphor/cables-patches-ops/blob/main/content/groq-client/README.md)

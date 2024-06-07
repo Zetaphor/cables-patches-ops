@@ -2,9 +2,11 @@
 
 This op uses the [`openai`](https://www.npmjs.com/package/openai) package to implement an OpenAI API client. It supports streaming responses and JSON mode.
 
+The baseURL field is supported, so you can use any OpenAI API compatible API URL (ex: [LM Studio](https://lmstudio.ai/), [ollama](https://ollama.com/)).
+
 ### Inputs
 
-* Base URL - `string` - The base URL of the OpenAI API. Leave "Default" to use OpenAI's API. This can be set to any OpenAI API compatible API URL (ex: [LM Studio](https://lmstudio.ai/), [ollama](https://ollama.com/))
+* Base URL - `string` - The base URL of the OpenAI API. Leave "Default" to use OpenAI's API.
 * API Key - `string` - The OpenAI API key
 * Model Name - `string` - The name of the OpenAI model to use
 * Temperature - `number` - The temperature of the response. Defaults to 0.7
