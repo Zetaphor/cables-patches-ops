@@ -1,6 +1,7 @@
 const { OpenAI } = op.require('openai');
 
 const
+    inBaseURL = op.inString("Base URL", "Default"),
     inAPIKey = op.inString("API Key", "OPENAI API KEY"),
     inModelName = op.inString("Model Name", "gpt-3.5-turbo"),
     inTemperature = op.inFloat("Temperature", 0.7),
@@ -20,7 +21,12 @@ let openAIApi = null;
 
 function initializeAPI() {
     if (openAIApi === null) {
-        openAIApi = new OpenAI({ apiKey: inAPIKey.get(), dangerouslyAllowBrowser: true });
+        const apiOpts = { apiKey: inAPIKey.get(), dangerouslyAllowBrowser: true };
+
+        if (inBaseURL.get().toLowerCase() !== 'default') {
+            apiOpts['baseURL'] = inBaseURL.get();
+        }
+        openAIApi = new OpenAI(apiOpts);
     }
 }
 
