@@ -25,4 +25,6 @@ This op uses the `openai` package from NodeJS to implement an OpenAI API client.
 
 ### Screenshot
 
+**Note**: The screenshot is missing the baseURL, which is implemented.
+
 ![openai-client](../screenshots/openai-client.png)
