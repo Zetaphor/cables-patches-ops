@@ -1,6 +1,6 @@
 # Groq Client
 
-This op uses the [`groq-sdk`](https://www.npmjs.com/package/groq-sdk) package from to implement a Groq API client. It supports streaming responses and JSON mode.
+This op uses the [`groq-sdk`](https://www.npmjs.com/package/groq-sdk) package to implement a Groq API client. It supports streaming responses and JSON mode.
 
 [Groq](https://groq.com/) offers a generous free tier for their API, and their inference for most models exceeds 1000 tokens per second.
 

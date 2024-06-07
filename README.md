@@ -21,7 +21,7 @@ This op uses the [`openai`](https://www.npmjs.com/package/openai) package to imp
 * [Documentation](https://github.com/Zetaphor/cables-patches-ops/blob/main/content/groq-client/README.md)
 * [Download](https://github.com/Zetaphor/cables-patches-ops/blob/main/downloads/groq-client.zip?raw=true)
 
-This op uses the [`groq-sdk`](https://www.npmjs.com/package/groq-sdk) package from to implement a Groq API client. It supports streaming responses and JSON mode.
+This op uses the [`groq-sdk`](https://www.npmjs.com/package/groq-sdk) package to implement a Groq API client. It supports streaming responses and JSON mode.
 
 [Groq](https://groq.com/) offers a generous free tier for their API, and their inference speeds are 1000+ tokens/second.
 
