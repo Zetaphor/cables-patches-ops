@@ -14,7 +14,7 @@ This op uses the [`ws`](https://www.npmjs.com/package/ws) package to implement a
 * [Documentation](https://github.com/Zetaphor/cables-patches-ops/blob/main/content/openai-client/README.md)
 * [Download](https://github.com/Zetaphor/cables-patches-ops/blob/main/downloads/openai-client.zip?raw=true)
 
-This op uses the [`openai` package](https://www.npmjs.com/package/openai) to implement an OpenAI API client. It supports streaming responses and JSON mode.
+This op uses the [`openai`](https://www.npmjs.com/package/openai) package to implement an OpenAI API client. It supports streaming responses and JSON mode.
 
 ## Groq Client
 
