@@ -21,3 +21,7 @@ This op uses the `openai` package from NodeJS to implement an OpenAI API client.
 * Generation Finished - `trigger` - Emitted when the generation is finished
 * Error Occured - `trigger` - Emitted when an error occurs
 * Error Message - `string` - The error message
+
+### Screenshot
+
+![openai-client](../screenshots/openai-client.png)
