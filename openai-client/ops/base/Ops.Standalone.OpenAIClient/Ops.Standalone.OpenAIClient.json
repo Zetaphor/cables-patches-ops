@@ -1,0 +1,78 @@
+{
+    "id": "9fc359d0-c902-4dba-9a73-60d3661b41f8",
+    "created": 1717724111735,
+    "authorName": "electron",
+    "changelog": [
+        {
+            "message": "created op",
+            "type": "",
+            "author": "electron",
+            "date": 1717724111735
+        }
+    ],
+    "layout": {
+        "portsIn": [
+            {
+                "type": 5,
+                "name": "API Key"
+            },
+            {
+                "type": 5,
+                "name": "Model Name"
+            },
+            {
+                "type": 0,
+                "name": "Temperature",
+                "subType": "number"
+            },
+            {
+                "type": 3,
+                "name": "Messages"
+            },
+            {
+                "type": 0,
+                "name": "Streaming Output",
+                "subType": "boolean"
+            },
+            {
+                "type": 0,
+                "name": "JSON Mode",
+                "subType": "boolean"
+            },
+            {
+                "type": 1,
+                "name": "Generate"
+            }
+        ],
+        "portsOut": [
+            {
+                "type": 5,
+                "name": "Response"
+            },
+            {
+                "type": 2,
+                "name": "Response Object"
+            },
+            {
+                "type": 1,
+                "name": "Received Response"
+            },
+            {
+                "type": 1,
+                "name": "Generation Started"
+            },
+            {
+                "type": 1,
+                "name": "Generation Finished"
+            },
+            {
+                "type": 1,
+                "name": "Error Occured"
+            },
+            {
+                "type": 5,
+                "name": "Error Message"
+            }
+        ]
+    }
+}
