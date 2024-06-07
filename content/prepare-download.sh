@@ -11,6 +11,6 @@ zip -r "$zip_file_name" "$folder_to_zip" -x "*node_modules*/*"
 
 mkdir -p downloads
 
-mv "$zip_file_name" downloads/
+mv "$zip_file_name" ../downloads/
 
 echo "$zip_file_name zipped successfully"
