@@ -15,3 +15,7 @@ This op uses the `ws` package from NodeJS to implement a WebSocket server. This 
 * [Download](https://github.com/Zetaphor/cables-patches-ops/blob/main/downloads/openai-client.zip?raw=true)
 
 This op uses the `openai` package from NodeJS to implement an OpenAI API client. It supports streaming responses and JSON mode.
+
+### Contributing
+
+Issues, PRs, and feature requests are welcome. I'm also open to requests for implementations of other NPM packages.
