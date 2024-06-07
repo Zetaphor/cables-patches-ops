@@ -27,4 +27,4 @@ This op uses the `ws` package from NodeJS to implement a WebSocket server. This 
 
 ### Screenshot
 
-![websocket-server](../screenshots/websocket-server.png)
+![websocket-server](../../screenshots/websocket-server.png)
