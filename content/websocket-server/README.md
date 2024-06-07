@@ -1,6 +1,6 @@
 # Websocket Server
 
-This op uses the `ws` package from NodeJS to implement a WebSocket server. This can be used to commuinicate with the browser, other cables patches, or native applications.
+This op uses the [`ws`](https://www.npmjs.com/package/ws) package to implement a WebSocket server. This can be used to commuinicate with the browser, other cables patches, or native applications.
 
 ### Inputs
 

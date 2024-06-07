@@ -1,6 +1,6 @@
 # OpenAI Client
 
-This op uses the `openai` package from NodeJS to implement an OpenAI API client. It supports streaming responses and JSON mode.
+This op uses the [`openai` package](https://www.npmjs.com/package/openai) to implement an OpenAI API client. It supports streaming responses and JSON mode.
 
 ### Inputs
 
