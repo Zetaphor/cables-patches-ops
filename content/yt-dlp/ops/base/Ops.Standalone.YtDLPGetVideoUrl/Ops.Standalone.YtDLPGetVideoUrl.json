@@ -1,0 +1,60 @@
+{
+    "id": "0056fc34-47ba-49b1-8a39-64cc10fb8ab4",
+    "created": 1717777153060,
+    "authorName": "electron",
+    "changelog": [
+        {
+            "message": "created op",
+            "type": "",
+            "author": "electron",
+            "date": 1717777153061
+        }
+    ],
+    "layout": {
+        "portsIn": [
+            {
+                "type": 5,
+                "name": "yt-dlp Binary Path"
+            },
+            {
+                "type": 5,
+                "name": "URL"
+            },
+            {
+                "type": 1,
+                "name": "Execute"
+            }
+        ],
+        "portsOut": [
+            {
+                "type": 5,
+                "name": "Video URL"
+            },
+            {
+                "type": 5,
+                "name": "Audio URL"
+            },
+            {
+                "type": 0,
+                "name": "Separate Tracks",
+                "subType": "boolean"
+            },
+            {
+                "type": 1,
+                "name": "Started"
+            },
+            {
+                "type": 1,
+                "name": "Finished"
+            },
+            {
+                "type": 1,
+                "name": "Error"
+            },
+            {
+                "type": 5,
+                "name": "Error Message"
+            }
+        ]
+    }
+}

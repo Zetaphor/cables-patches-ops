@@ -27,6 +27,15 @@ This op uses the [`groq-sdk`](https://www.npmjs.com/package/groq-sdk) package to
 
 [Groq](https://groq.com/) offers a generous free tier for their API, and their inference speeds are 1000+ tokens/second.
 
+### yt-dlp Video URL Grabber
+
+* [Documentation](https://github.com/Zetaphor/cables-patches-ops/blob/main/content/yt-dlp/README.md)
+* [Download Example Patch](https://github.com/Zetaphor/cables-patches-ops/blob/main/downloads/yt-dlp.zip?raw=true)
+
+This op uses the [`yt-dlp-wrap`](https://www.npmjs.com/package/yt-dlp-wrap) package to implement a yt-dlp interface for generating direct video/audio URL from a video provider.
+
+[yt-dlp supports ~1800 video providers](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md), making it simple to grab a direct video link from almost any URL on the web.
+
 ## Contributing
 
 Issues, PRs, and feature requests are welcome. I'm also open to requests for implementations of other NPM packages.
