@@ -1,0 +1,83 @@
+{
+    "id": "d23db988-8f80-45c8-a8e7-04a77b1f412e",
+    "created": 1717769934938,
+    "authorName": "electron",
+    "changelog": [
+        {
+            "message": "created op",
+            "type": "",
+            "author": "electron",
+            "date": 1717769934938
+        }
+    ],
+    "layout": {
+        "portsIn": [
+            {
+                "type": 5,
+                "name": "API Key"
+            },
+            {
+                "type": 5,
+                "name": "Model Name"
+            },
+            {
+                "type": 0,
+                "name": "Temperature",
+                "subType": "number"
+            },
+            {
+                "type": 0,
+                "name": "Max Tokens",
+                "subType": "integer"
+            },
+            {
+                "type": 3,
+                "name": "Messages"
+            },
+            {
+                "type": 0,
+                "name": "Streaming Output",
+                "subType": "boolean"
+            },
+            {
+                "type": 0,
+                "name": "JSON Mode",
+                "subType": "boolean"
+            },
+            {
+                "type": 1,
+                "name": "Generate"
+            }
+        ],
+        "portsOut": [
+            {
+                "type": 5,
+                "name": "Response"
+            },
+            {
+                "type": 2,
+                "name": "Response Object"
+            },
+            {
+                "type": 1,
+                "name": "Received Response"
+            },
+            {
+                "type": 1,
+                "name": "Generation Started"
+            },
+            {
+                "type": 1,
+                "name": "Generation Finished"
+            },
+            {
+                "type": 1,
+                "name": "Error Occured"
+            },
+            {
+                "type": 5,
+                "name": "Error Message"
+            }
+        ]
+    }
+}
