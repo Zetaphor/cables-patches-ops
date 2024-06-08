@@ -50,7 +50,7 @@ This op uses the [`yt-search`](https://www.npmjs.com/package/yt-search) package 
 * [Documentation](https://github.com/Zetaphor/cables-patches-ops/blob/main/content/serp-image-search/README.md)
 * [Download Example Patch](https://github.com/Zetaphor/cables-patches-ops/blob/main/downloads/serp-image-search.zip?raw=true)
 
-This op uses the [`serpapi`](https://www.npmjs.com/package/serpapi) package to implement a Google Image Search op. It requires an API key, their free plan allows for 100 requests per month.
+This op uses the [`serpapi`](https://www.npmjs.com/package/serpapi) package to implement a Google Image Search op using the [SerpAPI service](https://serpapi.com). It requires an API key, their free plan allows for 100 requests per month.
 
 ## Contributing
 
