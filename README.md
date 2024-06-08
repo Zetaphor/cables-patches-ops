@@ -52,6 +52,13 @@ This op uses the [`yt-search`](https://www.npmjs.com/package/yt-search) package 
 
 This op uses the [`serpapi`](https://www.npmjs.com/package/serpapi) package to implement a Google Image Search op using the [SerpAPI service](https://serpapi.com). It requires an API key, their free plan allows for 100 requests per month.
 
+### Random Words Generator
+
+* [Documentation](https://github.com/Zetaphor/cables-patches-ops/blob/main/content/random-words/README.md)
+* [Download Example Patch](https://github.com/Zetaphor/cables-patches-ops/blob/main/downloads/random-words.zip?raw=true)
+
+This op uses the [`niceware`](https://www.npmjs.com/package/niceware) package to implement a random words generator. It supports string output with a separator and array output.
+
 ## Contributing
 
 Issues, PRs, and feature requests are welcome. I'm also open to requests for implementations of other NPM packages.
