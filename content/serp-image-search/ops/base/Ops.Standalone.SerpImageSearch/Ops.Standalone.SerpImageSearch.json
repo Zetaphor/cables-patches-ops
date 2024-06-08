@@ -1,0 +1,56 @@
+{
+    "id": "cab9958e-f01a-4710-95da-a91cd1e36dc6",
+    "created": 1717813349090,
+    "authorName": "electron",
+    "changelog": [
+        {
+            "message": "created op",
+            "type": "",
+            "author": "electron",
+            "date": 1717813349091
+        }
+    ],
+    "layout": {
+        "portsIn": [
+            {
+                "type": 1,
+                "name": "Execute"
+            },
+            {
+                "type": 5,
+                "name": "Serp API Key"
+            },
+            {
+                "type": 5,
+                "name": "Search Term"
+            },
+            {
+                "type": 0,
+                "name": "Safe Search",
+                "subType": "boolean"
+            }
+        ],
+        "portsOut": [
+            {
+                "type": 3,
+                "name": "Results"
+            },
+            {
+                "type": 1,
+                "name": "Started"
+            },
+            {
+                "type": 1,
+                "name": "Finished"
+            },
+            {
+                "type": 1,
+                "name": "Error"
+            },
+            {
+                "type": 5,
+                "name": "Error Message"
+            }
+        ]
+    }
+}

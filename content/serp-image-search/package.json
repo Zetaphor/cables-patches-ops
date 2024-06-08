@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "serpapi": "^2.1.0"
+  }
+}

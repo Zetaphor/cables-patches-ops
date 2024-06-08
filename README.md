@@ -45,6 +45,13 @@ This op uses the [`yt-dlp-wrap`](https://www.npmjs.com/package/yt-dlp-wrap) pack
 
 This op uses the [`yt-search`](https://www.npmjs.com/package/yt-search) package to implement a youtube search op without requring an API key.
 
+### SerpAPI Google Image Search
+
+* [Documentation](https://github.com/Zetaphor/cables-patches-ops/blob/main/content/serp-image-search/README.md)
+* [Download Example Patch](https://github.com/Zetaphor/cables-patches-ops/blob/main/downloads/serp-image-search.zip?raw=true)
+
+This op uses the [`serpapi`](https://www.npmjs.com/package/serpapi) package to implement a Google Image Search op. It requires an API key, their free plan allows for 1000 requests per day.
+
 ## Contributing
 
 Issues, PRs, and feature requests are welcome. I'm also open to requests for implementations of other NPM packages.
