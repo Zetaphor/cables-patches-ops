@@ -52,6 +52,15 @@ This op uses the [`yt-search`](https://www.npmjs.com/package/yt-search) package 
 
 This op uses the [`serpapi`](https://www.npmjs.com/package/serpapi) package to implement a Google Image Search op using the [SerpAPI service](https://serpapi.com). It requires an API key, their free plan allows for 100 requests per month.
 
+### SearXNG Image Search
+
+* [Documentation](https://github.com/Zetaphor/cables-patches-ops/blob/main/content/searx-image-search/README.md)
+* [Download Example Patch](https://github.com/Zetaphor/cables-patches-ops/blob/main/downloads/searx-image-search.zip?raw=true)
+
+This op to implements image search using the [SearXNG API](https://docs.searxng.org/dev/search_api.html). [SearXNG](https://searxng.org/) is a self-hosted meta-search engine, so you will need to provide an instance URL. You can host SearXNG locally or use someone else's public instance. Note that you will the instance owner will need to have enabled the JSON output format in the SearXNG configuration as it's not there by default.
+
+This is serves as an alternative to the SerpAPI image search op as it doesn't require an API key and has no rate limiting.
+
 ### Random Words Generator
 
 * [Documentation](https://github.com/Zetaphor/cables-patches-ops/blob/main/content/random-words/README.md)
