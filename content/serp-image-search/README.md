@@ -1,6 +1,6 @@
 # SerpAPI Google Image Search
 
-This op uses the [`serpapi`](https://www.npmjs.com/package/serpapi) package to implement a Google Image Search op using the [SerpAPI service](https://serpapi.com). It requires an API key, their free plan allows for 1000 requests per day.
+This op uses the [`serpapi`](https://www.npmjs.com/package/serpapi) package to implement a Google Image Search op using the [SerpAPI service](https://serpapi.com). It requires an API key, their free plan allows for 100 requests per month.
 
 ## Inputs
 
