@@ -1,0 +1,51 @@
+{
+    "id": "33429471-dcaa-4ef5-a33a-ce166a62a67d",
+    "created": 1717808638630,
+    "authorName": "electron",
+    "changelog": [
+        {
+            "message": "created op",
+            "type": "",
+            "author": "electron",
+            "date": 1717808638631
+        }
+    ],
+    "layout": {
+        "portsIn": [
+            {
+                "type": 1,
+                "name": "Execute"
+            },
+            {
+                "type": 5,
+                "name": "Search Term"
+            }
+        ],
+        "portsOut": [
+            {
+                "type": 3,
+                "name": "Raw Results"
+            },
+            {
+                "type": 3,
+                "name": "Video URLs"
+            },
+            {
+                "type": 1,
+                "name": "Started"
+            },
+            {
+                "type": 1,
+                "name": "Finished"
+            },
+            {
+                "type": 1,
+                "name": "Error"
+            },
+            {
+                "type": 5,
+                "name": "Error Message"
+            }
+        ]
+    }
+}

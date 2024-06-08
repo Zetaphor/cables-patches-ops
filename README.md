@@ -38,6 +38,13 @@ This op uses the [`yt-dlp-wrap`](https://www.npmjs.com/package/yt-dlp-wrap) pack
 
 [yt-dlp supports ~1800 video providers](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md), making it simple to grab a direct video link from almost any URL on the web.
 
+### Youtube Search
+
+* [Documentation](https://github.com/Zetaphor/cables-patches-ops/blob/main/content/yt-search/README.md)
+* [Download Example Patch](https://github.com/Zetaphor/cables-patches-ops/blob/main/downloads/yt-search.zip?raw=true)
+
+This op uses the [`yt-search`](https://www.npmjs.com/package/yt-search) package to implement a youtube search op without requring an API key.
+
 ## Contributing
 
 Issues, PRs, and feature requests are welcome. I'm also open to requests for implementations of other NPM packages.
