@@ -57,7 +57,7 @@ This op uses the [`serpapi`](https://www.npmjs.com/package/serpapi) package to i
 * [Documentation](https://github.com/Zetaphor/cables-patches-ops/blob/main/content/random-words/README.md)
 * [Download Example Patch](https://github.com/Zetaphor/cables-patches-ops/blob/main/downloads/random-words.zip?raw=true)
 
-This op uses the [`niceware`](https://www.npmjs.com/package/niceware) package to implement a random words generator. It supports string output with a separator and array output.
+This op uses the [`niceware`](https://www.npmjs.com/package/niceware) package to implement a random words generator. The niceware package contains 65536 unique words. It supports string output with a separator and array output.
 
 ## Contributing
 

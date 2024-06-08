@@ -1,6 +1,6 @@
 # Random Words Generator
 
-This op uses the [`niceware`](https://www.npmjs.com/package/niceware) package to implement a random words generator. It supports string output with a separator and array output.
+This op uses the [`niceware`](https://www.npmjs.com/package/niceware) package to implement a random words generator. The niceware package contains 65536 unique words. It supports string output with a separator and array output.
 
 ## Inputs
 
